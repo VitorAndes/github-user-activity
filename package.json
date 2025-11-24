@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "start":"node src/server.ts",
     "dev": "node --env-file=.env --watch src/server.ts "
   },
   "devDependencies": {
